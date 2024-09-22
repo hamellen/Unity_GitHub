@@ -23,7 +23,7 @@ public class Desert_enviroment : MonoBehaviour
         int selected_number;
         List<GameObject> List_left_teleports = left_teleports.ToList();
         List<GameObject> List_right_teleports = right_teleports.ToList();
-        for (int i = 0; i < List_left_teleports.Count; i++)//랜덤뽑기 46회 반복,15개의 필드 랑 보스방 입구로 들어서는 1개의 포탈을 포함해 총 46개,실질 보스방으로 이어지는 포탈은 예외 
+        for (int i = 0; i < List_left_teleports.Count; i++)// 
         {
             do
             {
